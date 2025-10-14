@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>
+			webamp @ light
+		</title>
+		<link id="favicon" rel="icon" href="/img/site/light.webp" type="image/x-icon">
+		<script src="/js/cloaker.js">
+		</script>
+		<script src="/js/escape.js">
+		</script>
+		<style>
+			body{background-color:#000000}
+		</style>
+	</head>
+	<body>
+		<div id="app" style="height: 100vh">
+		</div>
+		<script src="webamp.bundle.min.js">
+		</script>
+		<script src="butterchurn.min.js">
+		</script>
+		<script src="butterchurnPresets.min.js">
+		</script>
+	<script>
+	const Webamp = window.Webamp;
+	const webamp = new Webamp({
+		__butterchurnOptions: {
+			importButterchurn: () => Promise.resolve(window.butterchurn),
+			getPresets: () => {
+				const presets = window.butterchurnPresets.getPresets();
+				return Object.keys(presets).map((name) => {
+					return {
+						name,
+						butterchurnPresetObject: presets[name],
+					};
+				});
+			},
+			butterchurnOpen: true,
+		},
+		initialTracks: [
+			{
+				url: "https://file.garden/Z-2H6tWhPAglb48I/21%20Donda%2C%20Kanye%20West%2C%20Ye%20-%20FIRST%20TIME%20IN%20A%20LONG%20TIME.flac",
+				defaultName: "Kanye West, Soulja Boy - FIRST TIME IN A LONG TIME",
+			},
+	        {
+				url: "https://file.garden/Z-2H6tWhPAglb48I/09%20Gorillaz%20-%20Skinny%20Ape.flac",
+				defaultName: "Gorillaz - Skinny Ape",
+			},
+	        {
+				url: "https://file.garden/Z-2H6tWhPAglb48I/05%20Kanye%20West%20-%20On%20God.flac",
+				defaultName: "Kanye West - On God",
+			},
+		],
+		windowLayout: {
+			main: { position: { top: 0, left: 0 } },
+			equalizer: { position: { top: 116, left: 0 } },
+			playlist: {
+				position: { top: 232, left: 0 },
+				size: { extraWidth: 0, extraHeight: 4 },
+			},
+			milkdrop: {
+				position: { top: 0, left: 275 },
+				size: { extraHeight: 12, extraWidth: 7 },
+			},
+		},
+	});
+
+	webamp.renderWhenReady(document.getElementById("app"));
+</script>
+
+	</body>
+
+</html>
