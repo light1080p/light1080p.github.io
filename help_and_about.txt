@@ -1,0 +1,51 @@
+(in case you are a LAZY FUCK and can't be bothered to read, the audiobook is here -->)
+
+chapter 1
+hello (about light)
+-----------------------------------------------------------
+light is a rehash of milkyway (https://github.com/milkywaygg/milkywaygg.github.io), and i'm redoing this because i hated:
+- the design of the site overall
+- how there were no preview images for games, just the buttons (SHIT navigating!!!!!!)
+- how the files were so unorganized (and for example, ~40 repositories depending on each other for the entire site to function instead of all-in-one)
+(i'm not joking, check the milkyway org)
+and i was really getting tired of the branding in general.
+as the name suggests, this site meant to be lightweight and simple but it will be large in terms of quantity
+this started on october 12, 2025, and i want to get all the games and apps/tools moved by maybe october 24
+i should be able to finish within that time
+in the meantime i will keep milkyway up, but once this is finished, that will go down. i will set an announcement on milkyway as well
+🫡 enjoy
+
+chapter 2
+these are useful
+------------------------------------------------------------
+ESCAPE
+when you are on any game or on the light menu you can hit the (,) key to escape
+what is escape?
+when you first choose escape you can select a link you will be taken to once that key is pressed again
+and the link will always save
+you can change it by hitting ctrl+shift+r on the site (careful as this will wipe all your data) 
+yes ik it is a bad solution but im looking for another option to reset it
+
+
+CLOAKER
+also on any game or on the light menu you can hit the (.) key to open the cloaker
+what is cloaker?
+hitting the cloaker key will open a dialogue and you will be given options to choose from a variety of stuff:
+
+- ALEKS
+- Clever
+- Cool Math Games
+- Desmos
+- Edpuzzle
+- Google
+- Google Drive
+- Google Classroom
+- Google Docs
+- Google Slides
+- IXL
+- i-Ready (Reading)
+- i-Ready (Math)
+- Khan Academy
+- Naviance
+- PowerSchool
+- Schoology
