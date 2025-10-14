@@ -80,6 +80,14 @@ main img {
     cursor: pointer;
 }
 
+.game-card img {
+    width: 100% !important;
+    height: 500px !important;
+    object-fit: cover;
+    display: block;
+}
+
+
 .game-card:hover {
     transform: translateY(-8px) scale(1.05);
     box-shadow: 0 0 25px 2px rgba(255, 255, 255, 0.8);
