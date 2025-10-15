@@ -7,28 +7,28 @@ light is a rehash of milkyway (https://github.com/milkywaygg/milkywaygg.github.i
 - how the files were so unorganized (and for example, ~40 repositories depending on each other for the entire site to function instead of all-in-one)
 (i'm not joking, check the milkyway org)
 and i was really getting tired of the branding in general.
+
 as the name suggests, this site meant to be lightweight and simple but it will be large in terms of quantity
 this started on october 12, 2025, and i want to get all the games and apps/tools moved by maybe october 24
 i should be able to finish within that time
 in the meantime i will keep milkyway up, but once this is finished, that will go down. i will set an announcement on milkyway as well
-🫡 enjoy
+if you want to ask a specific question, submit a game/app, etc then email 6ix7even@currently.com (you could open a github issue as well i guess)
+
 
 chapter 2
-these are useful
+other useful things
 ------------------------------------------------------------
-ESCAPE
+2.1 ESCAPE
 when you are on any game or on the light menu you can hit the (,) key to escape
-what is escape?
 when you first choose escape you can select a link you will be taken to once that key is pressed again
 and the link will always save
 you can change it by hitting ctrl+shift+r on the site (careful as this will wipe all your data) 
-yes ik it is a bad solution but im looking for another option to reset it
+yes ik it is a bad solution but im working on another option to reset it
 
 
-CLOAKER
+2.2 CLOAKER
 also on any game or on the light menu you can hit the (.) key to open the cloaker
-what is cloaker?
-hitting the cloaker key will open a dialogue and you will be given options to choose from a variety of stuff:
+cloaker will open a dialogue and you will be given options to choose from a variety of stuff:
 
 - ALEKS
 - Clever
@@ -49,4 +49,11 @@ hitting the cloaker key will open a dialogue and you will be given options to ch
 - Schoology
 
 and your tab will be disguised to look like whatever you choose
-im working on a settings option in the menu so that this saves across all pages instead of having to hit the key everytime
+im working on a settings option in the menu so that this saves across all pages instead of having to hit the key and choose everytime
+
+2.3 WEBAMP
+webamp is a web version of winamp 2
+you can upload audio files and they will play (it's a music player it is pretty straightforward vrochacho)
+there is also a music visualizer called butterchurn that is built-in
+
+there are lots of skins you can use for this and they are located at https://github.com/light6767/light6767.github.io/tree/main/a/music/skins
