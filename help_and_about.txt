@@ -47,3 +47,6 @@ hitting the cloaker key will open a dialogue and you will be given options to ch
 - Naviance
 - PowerSchool
 - Schoology
+
+and your tab will be disguised to look like whatever you choose
+im working on a settings option in the menu so that this saves across all pages instead of having to hit the key everytime
